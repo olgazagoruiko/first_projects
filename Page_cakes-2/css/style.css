@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(44, 43, 43);
+}
+a {
+  text-decoration: none;
+}
+.page-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+.nav-link {
+  color: grey;
+  line-height: 80px;
+  margin: 0 15px;
+}
+.nav-link.active {
+  color: rgb(211, 177, 204);
+}
+.nav-link:hover {
+  color: rgb(211, 177, 204);
+}
+.page-content {
+  min-height: calc(100vh - 80px - 60px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.promotion-baner {
+  font-size: 0px;
+}
+.name {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.baner-item {
+  width: calc(33.3333% - 16px);
+  height: 680px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 8px;
+  position: relative;
+}
+.baner-item.color {
+  background: #f7eae4;
+}
+.item-description {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.action-button {
+  display: block;
+  background: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  width: 150px;
+  margin: 40px auto 0px;
+  color: grey;
+}
+.action-button:hover {
+  border-color: black;
+}
+.baner-item:first-child {
+  background-image: url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.baner-item:last-child {
+  background-image: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.name.text {
+  background-color: #f7eae4;
+  margin: 8px;
+}
+.baner-content {
+  background: chartreuse;
+  width: calc(50% - 16px);
+  height: 500px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 8px;
+  position: relative;
+}
+.baner-content:first-child {
+  background-image: url("../images/3.jpg");
+}
+.baner-content:last-child {
+  background-image: url("../images/4.jpg");
+}
+.baner-content.with-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.link-button {
+  background: white;
+  background: white;
+  color: grey;
+  border: 2px solid white;
+  padding: 10px 20px;
+  width: 150px;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+.link-button:hover {
+  border-color: black;
+}
+.page-footer {
+  height: 60px;
+  background: rgb(247, 233, 228);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.text-footer {
+  text-align: center;
+  line-height: 60px;
+  margin: 8px;
+}

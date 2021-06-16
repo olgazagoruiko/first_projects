@@ -1,0 +1,8 @@
+:root {
+  --base-font-size: 20px;
+  --base-font-family: "Source Sans Pro", sans-serif;
+  --base-text-color: rgb(49, 48, 48);
+  --base-input-color: red;
+  --base-header-color: rgba(228, 228, 9, 0.63);
+  --base-font-color: 15px;
+}

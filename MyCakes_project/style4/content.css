@@ -1,0 +1,175 @@
+.page-content {
+  min-height: calc(100vh - 60px);
+}
+.page-color {
+  background-color: #f7eae4;
+}
+.title-page {
+  margin: 100px auto 50px;
+  background-color: #f7eae4;
+}
+.text-block {
+  text-align: center;
+}
+.title {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.text {
+  font-weight: normal;
+  line-height: 30px;
+}
+@media (max-width: 574px) {
+  .title-page {
+    margin: 20px auto 20px;
+  }
+}
+.line {
+  width: 10%;
+}
+@media (max-width: 574px) {
+  .null-block {
+    display: none;
+  }
+}
+.form-box {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+.form-one-field {
+  width: 48%;
+  height: 50px;
+  margin: 5px 6px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+@media (max-width: 574px) {
+  .form-one-field {
+    width: 90%;
+  }
+}
+.form-one-field:focus {
+  border: none;
+}
+.form-one-area {
+  width: 90%;
+  height: 100px;
+  margin: 5px auto;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+@media (max-width: 574px) {
+  .form-one-area {
+    width: 90%;
+  }
+}
+.form-one-but {
+  width: 90%;
+  height: 45px;
+  background: black;
+  color: white;
+  margin: 10px auto 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.showMessage {
+  color: grey;
+}
+.comments-form {
+  width: 320px;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 574px) {
+  .comments-form {
+    width: 100%;
+  }
+}
+.form-header {
+  margin-bottom: 25px;
+}
+.form-field {
+  width: 90%;
+  height: 30px;
+  background: white;
+  border: 2px solid black;
+  text-indent: 10px;
+}
+.action-btn {
+  margin: 8px auto 20px;
+  width: 90%;
+  display: block;
+  padding: 10px 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.action-btn:hover,
+.form-one-but:hover {
+  background-color: grey;
+}
+.showText {
+  color: brown;
+}
+.popup {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  color: #555;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #555;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 45%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

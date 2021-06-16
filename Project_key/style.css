@@ -1,0 +1,51 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+
+
+.hide {
+    display: none;
+}
+.keyboard{
+    margin: 0 auto;
+    width: 820px;
+    border: 5px solid rgb(36, 122, 192);
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+.key {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid rgb(161, 157, 157);
+    background: rgb(138, 207, 247);
+   }
+.shift-left, .enter{
+    width: 100px;
+}
+.probel{
+    width: 440px
+}
+.active {
+    background: orange;
+}

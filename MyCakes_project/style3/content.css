@@ -1,0 +1,399 @@
+.page-content {
+  min-height: calc(100vh - 60px);
+}
+.page-color {
+  background-color: #f7eae4;
+}
+.title-page {
+  margin: 100px auto 50px;
+  background-color: #f7eae4;
+}
+@media (max-width: 574px) {
+  .title-page {
+    margin: 20px auto 20px;
+  }
+}
+.page-color-two {
+  background-color: #fbefa3;
+  border: 1px solid #f3cc5c;
+}
+.title-page-two {
+  margin: 0px auto;
+  background-color: #fbefa3;
+}
+.text-block {
+  text-align: center;
+}
+.title {
+  margin: 50px auto;
+}
+.line {
+  width: 50%;
+}
+#window {
+  width: 500px;
+  height: 650px;
+  margin: 10px auto;
+  background: white;
+  box-shadow: 1px 3px 7px 1px black;
+  z-index: 2;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#grey {
+  background-color: rgba(1, 1, 1, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  z-index: 1;
+  overflow: auto;
+}
+.close {
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 6px;
+  background: black;
+  position: absolute;
+  top: -10px;
+  left: 482px;
+}
+.close:hover {
+  background: lightgrey;
+  color: black;
+}
+.foto {
+  width: 500px;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.modal_window {
+  width: 100%;
+  margin-top: 25px;
+}
+.modal_window-text {
+  padding: 5px 25px;
+}
+.line-form {
+  width: 90%;
+}
+.modal_window_btn {
+  margin: 0px auto;
+  width: 90%;
+  display: block;
+  padding: 10px 10px;
+  background-color: white;
+  border: none;
+  color: grey;
+  cursor: pointer;
+}
+.cads-box {
+  height: 100%;
+  margin: 0 auto;
+  /*background: burlywood;*/
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+.dropdown_but {
+  display: block;
+  width: 100%;
+  padding: 6px 5px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.dropdown_toggle {
+  display: block;
+  width: 100%;
+  padding: 15px 15px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+}
+.dropdown_list {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(250, 246, 246);
+  padding: 10px;
+  transform: translateY(100%);
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0;
+}
+.list-item > button {
+  border: none;
+  width: 100%;
+  display: block;
+  text-align: left;
+  background: rgb(250, 246, 246);
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.list-item > button:hover {
+  background-color: rgb(223, 213, 213);
+  border-left: 2px solid black;
+}
+.dropdown_list.active {
+  opacity: 1;
+  visibility: visible;
+}
+.cads-box-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cads-box-text {
+  padding: 10px;
+  font-family: Helvetica;
+}
+.colomn-content {
+  width: 100%;
+  overflow: hidden;
+}
+.card-item {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  width: 230px;
+  height: 240px;
+}
+.colomn-text {
+  width: 100%;
+  position: relative;
+}
+.card-header {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.but-box {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 80%;
+}
+.but-card {
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: black;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  padding: 2px 2px;
+  cursor: pointer;
+  outline: none;
+}
+.but-cads:hover {
+  border: none;
+  background: lightgray;
+}
+.comments-form {
+  width: 320px;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 574px) {
+  .comments-form {
+    width: 100%;
+  }
+}
+.form-header {
+  margin-bottom: 25px;
+}
+.form-field {
+  width: 90%;
+  height: 30px;
+  background: white;
+  border: 2px solid black;
+  text-indent: 10px;
+}
+.action-btn {
+  margin: 8px auto 20px;
+  width: 90%;
+  display: block;
+  padding: 10px 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.action-btn:hover {
+  background-color: grey;
+}
+.showText {
+  color: brown;
+}
+.popup {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  color: #555;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #555;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 45%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#window_connect {
+  width: 400px;
+  height: 500px;
+  margin: 10px auto;
+  background: white;
+  box-shadow: 1px 3px 7px 1px black;
+  z-index: 2;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.close_button {
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 6px;
+  background: black;
+  position: absolute;
+  top: -10px;
+  left: 390px;
+}
+.close_button:hover {
+  background: lightgrey;
+  color: black;
+}
+.form_img {
+  width: 400px;
+  height: 220px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.form-image {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  border-radius: 50%;
+}
+.form_content {
+  width: 100%;
+  margin-top: 25px;
+}
+.form_text {
+  padding: 10px 25px;
+  text-align: center;
+}
+.form_text_small {
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.modal_form_btn {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 90%;
+  display: block;
+  padding: 5px 5px;
+  border: 2px solid rgb(42, 52, 187);
+  background: blue;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.modal_form_btn:hover {
+  opacity: 0.5;
+}
+.image-facebook {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}

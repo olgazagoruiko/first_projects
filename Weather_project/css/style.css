@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.site-header h1 {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    margin: 40px auto;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;    
+    padding: 10px;
+}
+
+.out-1{
+    min-height: 400px;
+    margin: 30px auto;
+}
+
+.block {
+    width: 23%;
+    float: left;
+    height: 350px;
+    margin: 1%;
+    border: 1px solid #e1f019;
+    border-radius: 15px;
+    background-image: url("../images/4.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.city-name, .city-name-2, .city-name-3, .city-name-4{
+    color: #3e3f3e;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.temperature, .temperature-2, .temperature-3, .temperature-4 {
+    margin: 15px 0 0 0;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.vlazhnost, .vlazhnost-2,.vlazhnost-3,.vlazhnost-4, .wind, .wind-2,.wind-3,.wind-4{
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-left: 25px;
+    color: #3e3f3e;
+}
+.osadki, .osadki-2, .osadki-3, .osadki-4{
+    color: #3e3f3e;
+    margin-left: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+li{
+    list-style-type: none;  
+}
+.features, .features-2, .features-3, .features-4{
+    text-align: center;
+}
+@media (max-width: 800px){
+.out-1 .block {
+    width: 48%;
+}
+}
+@media (max-width: 600px){
+.out-1 .block {
+    width: 98%;
+}
+}

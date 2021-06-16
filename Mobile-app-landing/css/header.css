@@ -1,0 +1,29 @@
+.page-header {
+  background: var(--base-header-color);
+  height: 80px;
+}
+.page-section {
+  display: flex;
+  justify-content: center;
+}
+.page-content {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: turquoise; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-right: 30px;
+  color: var(--base-text-color);
+}
+.nav-item:last-child {
+  margin-right: 0;
+}

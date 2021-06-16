@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #E7FFA4;
+
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7C7979;
+}
+.sing-up-form{
+    width: 416px;
+    background: #FFFFFF;
+    margin:0px auto;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.26);
+    text-align: center; 
+    padding: 44px 44px 31px;   
+}
+.logo{
+    width: 105px;
+}
+.img-wrapper{
+    margin-bottom: 44px;
+}
+.form-field-wrapper{
+    margin-bottom: 14px;
+}
+.form-field{
+    width: 328px;
+    padding: 11px  17px;
+    background: #F3F3F3;
+    border: 1px solid #DCDCDC;
+    border-radius: 34px;
+    outline: none;
+}
+.form-field:focus{
+    background: #FFFFFF;
+    color: black;
+    border: 1px solid #1A95FF;
+}
+/* Placeholder скрывается при фoкусе */
+.form-field:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.button-wrapper{
+    margin-top: 41px;
+}
+.btn-submit{
+    width: 328px;
+    padding: 13px 0px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 34px;
+}
+.btn-submit:hover{
+    background: #3899EC;
+    color: #FFFFFF;
+}
+.link-wrapper{
+    margin-top: 28px;
+}
+.login-link{
+    color: #3899EC;
+    text-decoration: none;
+}
+

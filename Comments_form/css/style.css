@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background:#00466D ;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.coment-form{
+margin: auto;
+margin-top: 20px;
+width: 340px;
+background:#FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 9px;
+}
+.form-header{
+    color: #434444;
+    font-size: 18px;
+    text-align: center;
+}
+.form-field{
+    border: none;
+    width: 305px;
+    height: 25px;
+    background: #F1F1F1;
+    border-radius: 5px;
+    padding-left: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #434444;
+	outline:none;
+}
+textarea.form-field{
+    height: 106px;
+    padding-top: 5px;
+    resize:none;
+}
+.btn{
+    border:none;
+    width:305px;
+    height:35px;
+    background: #43CC51;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.btn:hover{
+    background: #7ee250;
+} 
+.coment-form div{
+    margin-left: 18px;
+    margin-top: 5px;
+} 
+.button-wrapper{
+    margin-top: 23px;
+    margin-bottom: 17px;
+}

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-list{
+    background: rgb(224, 156, 156);
+}
+.list-child{
+     list-style-type: square;
+   
+}
+/* кожен 3-й елемент зафарбувати в жовтий колір */
+/* .list-child:nth-child(3n){
+    background: yellow;
+} */
+/* всі парні елементи  зафарбувати в зелений колір, а непарні в синій */
+/* .list-child:nth-child(even){
+    background: rgb(20, 211, 52);
+}
+.list-child:nth-child(odd){
+    background: rgb(39, 7, 218);
+} */
+/* першому елементуц списку задати колір фону червоний, а останньому білий */
+.list-child:first-child{
+    background: rgb(243, 23, 23);
+}
+.list-child:last-child{
+    background: rgb(247, 242, 242);
+}
+/* перед кожним елементом списку додати + */
+/* .list-child::before{
+    content: "+";
+}
+/* після кожного елемента списку додати - */
+/* .list-child::after{
+    content: "-";
+} */ 
+/* перед кожним 3-тім елементом списку додати + і зафарбувати в жовтий колір */
+
+.list-child:nth-child(3n)::before{
+    content: "+";
+    background: yellow;
+}

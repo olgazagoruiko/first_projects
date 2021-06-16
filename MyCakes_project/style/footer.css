@@ -1,0 +1,14 @@
+.footer-block {
+  background: #f7eae4;
+  height: 60px;
+  width: 100%;
+}
+.footer-text {
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.fon {
+  background: #f7eae4;
+}

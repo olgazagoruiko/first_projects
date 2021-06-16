@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+  background: #33cccc;
+}
+a {
+	text-decoration: none;
+}
+
+.page-header{
+	margin: auto;
+	max-width: 1000px;
+	height: 120px;
+	/*background: pink;*/
+	display: flex;
+	justify-content: space-between;
+}
+.page-header-left{
+    width: 50%;
+	height: 100%;
+}
+.page-header-right{
+	width: 50%;
+	height: 100%;
+	background: white;
+	text-align: right;
+}
+.logo-img{
+	margin-top: 20px;
+	width: 45%;
+	height: 35%;
+}	
+.butt-close{
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background: none;
+}
+.butt-img{
+	width: 75%;
+	height: 50%;
+}
+.page-content{
+	margin: auto;
+	max-width: 1000px;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.baner-button{
+    margin: auto;
+    width: 50%;
+	height: 100%;
+	background: white;
+}
+
+.baner-text{
+ 	width:50%;
+	height: 100%;
+	padding-top:150px;
+}
+.header-text, .text{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: left; 
+	line-height: 25px;
+}
+ .comments-form{
+	width: 50%;
+	text-align: left;
+}
+.form-header{
+	color: white;
+	
+}
+.form-field{
+	width: 100%;
+    height: 50px;
+    background: white;
+    text-indent: 10px;
+    margin-top:5px;
+    border: none;
+}
+.but-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.action-btn-one{
+	margin: auto;
+	margin-top: 150px;
+	width: 50%;
+	display: block;
+	padding: 15px 15px;
+	background-color: #6699ff;
+	border: none;
+	color: white;
+	text-align: left;
+}
+.image-logo{
+	width: 10%;
+	height: 30%;
+}
+	
+.action-btn-two{
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	display: block;
+	padding: 15px 15px;
+	background-color: #3B5999;
+	border: none;
+	color: white;
+	text-align: left;
+}
+.action-btn-three{
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	display: block;
+	padding: 15px 15px;
+	background-color: #33cccc;
+	border: none;
+	color: white;
+	text-align: center;
+}
+.text-baner-button{
+	color: black;
+	margin: auto;
+	margin-top: 40px;
+	width: 100%;
+	border: none;
+	text-align: center;
+
+}
+.a-text{
+	color: #33cccc;
+
+}
+.page-footer{
+	margin: auto;
+	max-width: 1000px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.footer-content-left{
+	margin: auto;
+	width: 50%;
+	height: 100%;
+	text-align: left;
+}
+.footer-content-right{
+	margin: auto;
+	width: 50%;
+	height: 100%;
+	background: white;
+	position: relative;
+}
+.logo-footer{
+	width: 150px;
+	height: 50px;
+	display: flex;
+	justify-content:space-around; 
+	align-items: center;
+	margin-left: 20px;
+	margin-top: 150px;
+}
+.img-footer{
+   width: 15%;
+   height: 50%;
+}
+.text-footer{
+	margin-bottom: 10px;
+
+}
+.text-copy{
+    color: white;
+    font-size: 11px;
+
+}
+.baner-item{
+	width: 100%;
+	height: 100%;
+	position: relative;
+		
+}
+.baner-item.with-image{
+
+	background-image: url(./image/birn/birn.png);
+	background-size: cover;
+	background-position: 60px 20px;
+	background-repeat: no-repeat;
+
+}
+.text-baner-footer{
+	color: black;
+	width: 50%;
+	border: none;
+	text-align: center;
+	position: absolute;
+	
+}
+.text-footer-right{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+}
+.text-copy-right{
+	color: black;
+    font-size: 11px;
+}
+
+
+
+
